@@ -1,8 +1,8 @@
 const express = require("express")
 const mongoose = require("mongoose")
-const UsersModel = require('./model/Users')
 const cors = require('cors')
 const app = express()
+const UsersModel = require('./model/Users')
 const EmployeeModel = require("../Bekcend/model/Employee")
 
 
